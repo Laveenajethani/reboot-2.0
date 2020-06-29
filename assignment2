@@ -1,1 +1,12 @@
+ Problem #2 :  play with directory 
 
+    1#  create a directory without name from command line
+    2#  create a directory with name "-okgoogle"
+
+1# mkdir " "
+we have to create file without name so we give name of directory is space.
+This command will create directory without any name.
+
+2# mkdir -- -okgoogle
+when we create directory without giving -- so this command will give error -o option not available.
+so we give -- so it will not treat -okgoogle as option.
