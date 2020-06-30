@@ -1,1 +1,9 @@
+# create two users name jack and Jill  from command line
+>useradd jack
+>passwd jack
+>useradd jill
+>passwd jill
 
+#create all the data under home directory of each users 
+#login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
+> sudo jack
