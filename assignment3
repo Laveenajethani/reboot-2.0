@@ -1,1 +1,5 @@
+##create a directory structure 
+Note :   You are only allowed to use a single command and only one time
 
+
+mkdir -p A/{B/{G/K/reboot.txt,H/J/reboot.txt},C/{I/J/reboot.txt,J/L/reboot.txt},D/{F/L/reboot.txt,E/M/reboot.txt}}
