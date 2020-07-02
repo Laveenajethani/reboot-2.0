@@ -7,6 +7,10 @@ Problem:5
      
      
 #solution
->  
+> cd /tmp
+> touch  ok fine abc.txt
+> mkdir a aa aaa aaaa
+> ls
+> ls -d ??
 
- 
+<img src="https://ibb.co/kqMdSMq" alt="sol-5" border="0">
