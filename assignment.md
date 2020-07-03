@@ -109,6 +109,12 @@ jack1  jack2  jack.txt
 ```
 #### (e)now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
 ```
+[root@localhost ~]# su - jill
+[jill@localhost ~]$ touch jill.txt
+[jill@localhost ~]$ vim jill.txt
+hey jill
+:wq
+
 ```
 #### (f)from Jill also create two directoires named jill1 & jill2 
 ```
