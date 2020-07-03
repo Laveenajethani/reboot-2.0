@@ -20,6 +20,12 @@
 ```
 #### (b)create a directory with name "-okgoogle"
 ```
+[laveenajethani@localhost ~]$ mkdir -- "-okgoogle"
+[laveenajethani@localhost ~]$ ls
+' '        Documents   -okgoogle   Public                     typescript
+ A         Downloads   Pictures    Templates                  Videos
+ Desktop   Music       practise    terminal-AdvancedNewFile
+
 ```
 ## Problem #3 
 ###  create a directory structure 
