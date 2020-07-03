@@ -18,6 +18,33 @@
 ## Problem #3 
 ###  create a directory structure 
 ```
+[laveenajethani@localhost ~]$ mkdir -p A/{B/{G/K/reboot.txt,H/J/reboot.txt},C/{I/J/reboot.txt,J/L/reboot.txt},D/{F/L/reboot.txt,E/M/reboot.txt}}
+[laveenajethani@localhost ~]$ tree A
+A
+├── B
+│   ├── G
+│   │   └── K
+│   │       └── reboot.txt
+│   └── H
+│       └── J
+│           └── reboot.txt
+├── C
+│   ├── I
+│   │   └── J
+│   │       └── reboot.txt
+│   └── J
+│       └── L
+│           └── reboot.txt
+└── D
+    ├── E
+    │   └── M
+    │       └── reboot.txt
+    └── F
+        └── L
+            └── reboot.txt
+
+21 directories, 0 files
+
 ```
 ## Problem #4
 ### share and files and folder 
