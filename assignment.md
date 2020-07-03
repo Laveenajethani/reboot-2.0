@@ -11,6 +11,12 @@
 ### play with directory 
 #### (a)create a directory without name from command line
 ```
+[laveenajethani@localhost ~]$ mkdir ' '
+[laveenajethani@localhost ~]$ ls
+' '        Documents   -okgoogle   Public                     typescript
+ A         Downloads   Pictures    Templates                  Videos
+ Desktop   Music       practise    terminal-AdvancedNewFile
+
 ```
 #### (b)create a directory with name "-okgoogle"
 ```
