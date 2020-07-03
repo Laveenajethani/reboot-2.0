@@ -118,6 +118,11 @@ hey jill
 ```
 #### (f)from Jill also create two directoires named jill1 & jill2 
 ```
+[jill@localhost ~]$ mkdir jill1 jill2
+[jill@localhost ~]$ ls
+jill1  jill2  jill.txt
+
+
 ```
 Important :  swap these files and directories in between users  and to swap don't use root account.
 
