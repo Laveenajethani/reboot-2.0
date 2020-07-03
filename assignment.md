@@ -93,6 +93,8 @@ jack  jill  laveenajethani  sharedFolder
 ```
 #### (c)login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
 ```
+[jack@localhost ~]$ touch jack.txt
+
 ```
 #### (d)from jack user also create two directories name jack1 & jack2 
 ```
