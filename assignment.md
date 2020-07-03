@@ -62,10 +62,34 @@ A
 ### share and files and folder 
 #### (a)create two users name jack and Jill  from command line
 ```
+[root@localhost ~]# useradd jack
+[root@localhost ~]# useradd jill
+[root@localhost ~]# passwd jack
+Changing password for user jack.
+New password: 
+BAD PASSWORD: The password contains the user name in some form
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@localhost ~]# passwd jill
+Changing password for user jill.
+New password: 
+BAD PASSWORD: The password contains the user name in some form
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+
 ```
 
 #### (b)create all the data under home directory of each users 
 ```
+root@localhost ~]# cd /
+[root@localhost /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr  VBox.log
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@localhost /]# cd /home
+[root@localhost home]# ls
+jack  jill  laveenajethani  sharedFolder
+
+
 ```
 #### (c)login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
 ```
