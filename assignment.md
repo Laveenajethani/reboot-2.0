@@ -126,6 +126,12 @@ jill1  jill2  jill.txt
 ```
 #### (g)Important :  swap these files and directories in between users  and to swap don't use root account.
 ```
+[root@localhost ~]# chmod 777 /home/jack
+[root@localhost ~]# chmod 777 /home/jill
+[root@localhost ~]# su - jack
+[jack@localhost ~]$ mv /home/jack/jack1 /home/jill/
+[jack@localhost ~]$ mv /home/jack/jack2 /home/jill/
+[jack@localhost ~]$ mv /home/jack/jack.txt /home/jill/
 
 ```
 ## Problem #5 :  
