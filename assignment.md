@@ -124,8 +124,10 @@ jill1  jill2  jill.txt
 
 
 ```
-Important :  swap these files and directories in between users  and to swap don't use root account.
+#### (g)Important :  swap these files and directories in between users  and to swap don't use root account.
+```
 
+```
 ## Problem #5 :  
 #### play with files and directories 
 #### (a) create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory 
