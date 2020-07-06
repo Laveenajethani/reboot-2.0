@@ -164,6 +164,52 @@ jill1  jill2  jill.txt
 #### (c)you are not allowed to redirect output anywhere 
 ```
 ```
-
-
-
+## problem #7:
+### create a shell script 
+#### (a)create a shell script named /root/delvex.sh 
+```
+```
+#### (b)make sure it will run /bin/sh shell 
+```
+```
+#### (c)a user will be running this script my using a command name opensource
+```
+```
+#### (d)when a user  run like  "opensource  time" it must give current time only
+```
+```
+#### (e)when it runs like "opensource user"  it will give list of interactive shell users only
+```
+```
+#### (f)when run like "opensource 100"  it must print "Hello Delvex" 100 times in interval of 1 sec
+```
+```
+#### (g)if runs like  "opensource windows"  then it must shutdown OS
+```
+```
+#### (e)if run opensource command without any parameter  then it must show out --
+             i)   name of kernel 
+             ii)   version of kernel 
+             iii)  current date in the format of  /DD/MM/YY
+             iv)  name of OS 
+             v)   last reboot time 
+             Note:    each output for last option must be in a separate line   
+```
+```
+## Problem #8:
+### create a user will default settings
+#### (a)create a user name  delvex  and password of this user will be fedora
+```
+```
+#### (b)when user got created below listed things will come by default
+```
+```
+#### (c)history size will be 5000 
+```
+```
+#### (d)history file will be  /home/delvex/myhist.txt
+```
+```
+#### (e)default shell will be  /bin/sh 
+```
+```
