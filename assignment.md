@@ -132,6 +132,11 @@ jill1  jill2  jill.txt
 [jack@localhost ~]$ mv /home/jack/jack1 /home/jill/
 [jack@localhost ~]$ mv /home/jack/jack2 /home/jill/
 [jack@localhost ~]$ mv /home/jack/jack.txt /home/jill/
+[root@localhost ~]# su - jill
+[jill@localhost ~]$ mv /home/jill/jill1 /home/jack/
+[jill@localhost ~]$ mv /home/jill/jill2 /home/jack/
+[jack@localhost ~]$ mv /home/jill/jill.txt /home/jack/
+
 
 ```
 ## Problem #5 :  
