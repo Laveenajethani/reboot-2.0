@@ -202,9 +202,14 @@ fi
 ```
 #### (c)a user will be running this script my using a command name opensource
 ```
+[root@localhost p7]# vim /usr/bin/opensource
+#!/bin/sh
+/root/p7/delvex.sh
+:wq
 ```
 #### (d)when a user  run like  "opensource  time" it must give current time only
 ```
+
 ```
 #### (e)when it runs like "opensource user"  it will give list of interactive shell users only
 ```
