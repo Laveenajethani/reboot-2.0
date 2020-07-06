@@ -203,8 +203,8 @@ fi
 #### (c)a user will be running this script my using a command name opensource
 ```
 [root@localhost p7]# vim /usr/bin/opensource
-#!/bin/sh
-/root/p7/delvex.sh
+#!/bin/bash
+/root/delvex.sh
 :wq
 ```
 #### (d)when a user  run like  "opensource  time" it must give current time only
