@@ -203,7 +203,7 @@ fi
 #### (c)a user will be running this script my using a command name opensource
 ```
 [root@localhost p7]# vim /usr/bin/opensource
-#!/bin/bash
+#!/bin/sh
 /root/delvex.sh
 :wq
 ```
