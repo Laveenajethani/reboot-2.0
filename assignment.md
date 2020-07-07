@@ -167,6 +167,7 @@ jill1  jill2  jill.txt
 ## problem #7:
 ### create a shell script 
 #### (a)create a shell script named /root/delvex.sh 
+#### b)make sure it will run /bin/sh shell 
 ```
 > vim delvex.sh
 #!/bin/sh
@@ -198,9 +199,7 @@ fi
 
 :wq
 ```
-#### (b)make sure it will run /bin/sh shell 
-```
-```
+
 #### (c)a user will be running this script my using a command name opensource
 ```
 [root@localhost p7]# vim /usr/bin/opensource
