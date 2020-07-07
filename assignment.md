@@ -170,31 +170,7 @@ jill1  jill2  jill.txt
 ```
 > vim delvex.sh
  
- #!/bin/sh
-if [ $1 == "time" ]
-then
-	date +%T
-elif [ $1 == "user" ]
-then
-	cat /etc/shells
-elif [ $1 -eq  100 ]
-then
-	for i in {0..99} 
-	do
-		echo "hello delvex"
-		sleep 1
-	done
-elif [ $1 == "windows" ]
-then
-	shutdown -h now
-else
-	uname
-	uname -r
-	date
-	uname -o
-        who -b
 
-fi
 :wq
 ```
 #### (b)make sure it will run /bin/sh shell 
