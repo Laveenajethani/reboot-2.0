@@ -259,6 +259,13 @@ hello delvex 16
              v)   last reboot time 
              Note:    each output for last option must be in a separate line   
 ```
+[root@localhost ~]# opensource
+Kernel is:Linux
+version of kernel is:5.6.6-300.fc32.x86_64
+current date is:07/07/20
+Name of OS is:GNU/Linux
+Last reboot on:         system boot  2020-07-07 22:35
+
 ```
 ## Problem #8:
 ### create a user will default settings
