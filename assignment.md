@@ -169,6 +169,31 @@ jill1  jill2  jill.txt
 #### (a)create a shell script named /root/delvex.sh 
 ```
 > vim delvex.sh
+#!/bin/sh
+if [[ $1 == "time" ]]
+then
+	echo "current time is:`date +%T`"
+elif [[ $1 == "user" ]]
+then
+	"intractive shells are:`cat /etc/shells`"
+elif [[ $1 -eq  100 ]]
+then
+	for i in {0..99} 
+	do
+		echo "hello delvex $i"
+		sleep 1
+	done
+elif [[ $1 == "windows" ]]
+then
+	echo "PC going to shutdown:`shutdown -h now`"
+else
+	echo "Kernel is:`uname`"
+	echo "version of kernel is:`uname -r`"
+	echo "current date is:`date +"%d/%m/%y"`"
+	echo "Name of OS is:`uname -o`"
+        echo "Last reboot on:`who -b`"
+
+fi
  
 
 :wq
