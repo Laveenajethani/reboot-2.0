@@ -1,10 +1,11 @@
+## solved q5
 
 #!/bin/bash
 if [ $# -eq 0 ]
 then
 	read -p "please enter user anme" user
-  useradd $user
-  echo $user | passwd $user --stdin
+        useradd $user
+        echo $user | passwd $user --stdin
 fi
 getent passwd $1 > /dev/null
 if [ $? -eq 0 ]
